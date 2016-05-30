@@ -13,7 +13,11 @@
   </head>
   <body>
 
-  <SMTK:TypeBasic/>
+  <form>
+
+    <SMTK:TypeBasic/>
+    <input type="submit">
+  </form>
 
   </body>
 </html>
