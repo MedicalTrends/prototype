@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="PrototypeConcept:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PrototypeConcept_ejb_exploded</output-path>
+    <root id="root">
+      <element id="module-output" name="PrototypeConcept" />
+      <element id="javaee-facet-resources" facet="PrototypeConcept/web/Web" />
+      <element id="javaee-facet-resources" facet="PrototypeConcept/ejb/EJB" />
+    </root>
+  </artifact>
+</component>

@@ -11,12 +11,38 @@
 
     <!-- Invoke 'Generate' action to add tags or functions -->
 
+
+
+    <!-- Crear concepto -->
+
     <tag>
         <name>TypeBasic</name>
         <tag-class>smtk.lib.taglibs.TypeBasicTag</tag-class>
-
         <body-content>empty</body-content>
     </tag>
-    
-    
+
+    <tag>
+        <name>CC</name>
+        <tag-class>smtk.lib.taglibs.ConceptToConceptTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+
+    <!-- Crear categoría -->
+
+
+    <tag>
+        <name>FormCategory</name>
+        <tag-class>smtk.lib.taglibs.FormCategory</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>SelectTypesBasic</name>
+        <tag-class>smtk.lib.taglibs.SelectTypeBasic</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+
+
 </taglib>

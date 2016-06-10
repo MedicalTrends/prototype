@@ -8,15 +8,53 @@ import javax.management.Attribute;
 public class AttributeCategory {
 
 
-    private int id;
+    private String id;
     private String name;
+    private String type;
     private int multiplicity;
     private String description;
     private boolean required;
 
+    public AttributeCategory(String id, String name, String type, int multiplicity, String description, boolean required, int idCategoryDes, String order) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.multiplicity = multiplicity;
+        this.description = description;
+        this.required = required;
+        this.idCategoryDes = idCategoryDes;
+        this.order = order;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getIdCategoryDes() {
+        return idCategoryDes;
+    }
+
+    public void setIdCategoryDes(int idCategoryDes) {
+        this.idCategoryDes = idCategoryDes;
+    }
+
+    public String isOrder() {
+        return order;
+    }
+
+    public void setOrder(String order) {
+        this.order = order;
+    }
+
+    private int idCategoryDes;
+    private String order;
 
 
-    public AttributeCategory(int id, String name, int multiplicity, String description, boolean required) {
+    public AttributeCategory(String id, String name, int multiplicity, String description, boolean required) {
         this.id = id;
         this.name = name;
         this.multiplicity = multiplicity;
@@ -35,11 +73,11 @@ public class AttributeCategory {
                 '}';
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
