@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="pg Semantikos MT" uuid="01f87ae6-2631-4aa0-b29e-efc062530da6">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>semantikos.semantikos</schema-pattern>
+    </data-source>
+  </component>
+</project>
