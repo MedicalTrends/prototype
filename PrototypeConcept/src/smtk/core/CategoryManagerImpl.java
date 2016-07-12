@@ -26,6 +26,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         ArrayList<AttributeCategory> Attributes = new ArrayList<AttributeCategory>();
 
 
+/*
         try {
             Class.forName(driver);
             Connection conne = (Connection) DriverManager.getConnection(ruta, user, password);
@@ -57,6 +58,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+*/
 
         return Attributes;
     }
@@ -65,9 +67,10 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
     public ArrayList<AttributeCategory> getAllDescription() {
 
 
-        ArrayList<AttributeCategory> Attributes = new ArrayList<>();
+        ArrayList<AttributeCategory> Attributes = new ArrayList<AttributeCategory>();
 
 
+/*
         try {
             Class.forName(driver);
             Connection conne = (Connection) DriverManager.getConnection(ruta, user, password);
@@ -95,6 +98,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+*/
 
         return Attributes;
     }
@@ -105,6 +109,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         ArrayList<Category> categories = new ArrayList<Category>();
 
 
+/*
         try {
             Class.forName(driver);
             Connection conne = (Connection) DriverManager.getConnection(ruta, user, password);
@@ -128,6 +133,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+*/
 
         return categories;
     }
@@ -135,6 +141,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
     @Override
     public int addCategory(Category category) {
 
+/*
         try {
 
             Class.forName(driver);
@@ -160,11 +167,13 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+*/
         return 0;
     }
 
     @Override
     public void addAttribute(AttributeCategory attributeCategory, int idCategory) {
+/*
         try {
 
             Class.forName(driver);
@@ -185,6 +194,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+*/
     }
 
     @Override
@@ -192,6 +202,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
 
         int idTypeRelationShip=0;
 
+/*
         try {
 
             Class.forName(driver);
@@ -219,6 +230,7 @@ public class CategoryManagerImpl implements CategoryManagerInterface {
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+*/
 
         return idTypeRelationShip;
     }
